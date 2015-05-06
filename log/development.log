@@ -4826,3 +4826,99 @@ Served asset /jquery.js - 304 Not Modified (25ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-06 17:36:27 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/movies?sort_param=title" for 127.0.0.1 at 2015-05-06 17:49:55 -0300
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_param"=>"title"}
+  [1m[36mMovie Load (29.7ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY title[0m
+  Rendered movies/index.html.haml within layouts/application (90.7ms)
+Completed 200 OK in 200.0ms (Views: 168.4ms | ActiveRecord: 29.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-06 17:49:56 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-06 17:49:56 -0300
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-06 17:49:56 -0300
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-06 17:49:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/movies?sort_param=title" for 127.0.0.1 at 2015-05-06 17:49:59 -0300
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_param"=>"title"}
+  [1m[35mMovie Load (2.8ms)[0m  SELECT "movies".* FROM "movies" ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (46.4ms)
+Completed 200 OK in 116.7ms (Views: 112.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-06 17:50:00 -0300
+Served asset /application.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:00 -0300
+Served asset /jquery.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:00 -0300
+Served asset /application.js - 304 Not Modified (177ms)
+
+
+Started GET "/movies?sort_param=release_date" for 127.0.0.1 at 2015-05-06 17:50:04 -0300
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_param"=>"release_date"}
+  [1m[36mMovie Load (0.9ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (52.9ms)
+Completed 200 OK in 95.4ms (Views: 93.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-06 17:50:04 -0300
+Served asset /application.css - 304 Not Modified (75ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:05 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:05 -0300
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:05 -0300
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/movies?sort_param=title" for 127.0.0.1 at 2015-05-06 17:50:12 -0300
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_param"=>"title"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies" ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (22.0ms)
+Completed 200 OK in 57.0ms (Views: 54.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-06 17:50:12 -0300
+Served asset /application.css - 304 Not Modified (63ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:12 -0300
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-06 17:50:12 -0300
+Served asset /application.js - 304 Not Modified (82ms)
