@@ -5,8 +5,7 @@ class MoviesController < ApplicationController
     @movie = Movie.find(id) # look up movie by unique ID
     # will render app/views/movies/show.<extension> by default
   end
-#hw2 part 2
-#
+#HW2 Problem 1.b
   def index
     @all_ratings = Movie.all_ratings
     if params[:ratings]
@@ -20,9 +19,7 @@ class MoviesController < ApplicationController
 	@ratings_hash = {}
 	@ratings_array = @all_ratings
     end 
-    #hw2 part 1.b 
-    #if someone clicks on title, sorts and highlights
-    #if someone clicks on release date, sorts and hightlights
+
     if params[:sort_param]
 	session[:sort_param] = params[:sort_param]
 	if (params[:sort_param] == "title")
