@@ -1,6 +1,8 @@
 -#  This file is app/views/movies/index.html.haml
 %h1 All Movies
 
+-#hw 2 part 2
+-#this sets up the check boxes for the rating
 =form_tag movies_path, :method => :get do
   Include:
   - @all_ratings.each do |rating|
@@ -8,6 +10,8 @@
     =check_box_tag "ratings[#{rating}]", "1", checked = @ratings_array.member?(rating)
   =submit_tag 'Refresh', :id => "ratings_submit"
 
+-#hw 2 part 1.b
+-#sets the table into title, rating, and release date 
 %table#movies
   %thead
     %tr
